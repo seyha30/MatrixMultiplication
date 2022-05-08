@@ -1,8 +1,12 @@
 package com;
 
 import java.util.Random;
-public class MatrixGeneratorUtil {
+public class Matrix {
 
+	public static int [][]generateManualMatrix(int rows,int columns) {
+		int[][] result = new int[rows][columns];
+		return result;
+	}
 	public static int[][] generateMatrix(int rows, int columns) {
 		int[][] result = new int[rows][columns];
 		Random random = new Random();

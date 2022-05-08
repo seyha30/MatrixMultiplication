@@ -7,8 +7,8 @@ public class SingleThread {
 
 		Date start = new Date();
 
-		int[][] matrix1 = MatrixGeneratorUtil.generateMatrix(3000, 3000);
-		int[][] matrix2 = MatrixGeneratorUtil.generateMatrix(3000, 3000);
+		int[][] matrix1 = Matrix.generateMatrix(3000, 3000);
+		int[][] matrix2 = Matrix.generateMatrix(3000, 3000);
 
 		int[][] result = multiply(matrix1, matrix2);
 		Date end = new Date();
