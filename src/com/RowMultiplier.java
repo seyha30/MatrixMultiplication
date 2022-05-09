@@ -2,10 +2,10 @@ package com;
 
 public class RowMultiplier implements Runnable {
 
-	private final int[][] result;
+	private int[][] result;
 	private int[][] matrix1;
 	private int[][] matrix2;
-	private final int row;
+	private int row;
 
 	public RowMultiplier(int[][] result, int[][] matrix1, int[][] matrix2, int row) {
 		this.result = result;
