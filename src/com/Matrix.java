@@ -40,7 +40,6 @@ public class Matrix {
 
 	}
 
-	// to print the matrix
 	public static void print(int[][] matrix) {
 
 		System.out.println();
